@@ -1,0 +1,26 @@
+/target
+
+# Credentials & secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+service_account*.json
+oauth_credentials.json
+oauth_token.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal docs
+docs/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
